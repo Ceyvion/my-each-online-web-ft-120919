@@ -14,5 +14,3 @@ array
 my_each do |numbers| 
   puts numbers
 end 
-
-end
