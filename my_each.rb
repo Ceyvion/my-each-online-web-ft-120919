@@ -5,7 +5,7 @@ def my_each(array)
   # code here
   counter = 0 
   if block_given?
-    while counter < array.length 
+    while counter < array[counter] 
   yield array 
   counter +=1 
  end 
@@ -13,6 +13,6 @@ array
 end 
 
 my_each do |numbers| 
-  puts numbers
+  numbers
  end 
 end 
