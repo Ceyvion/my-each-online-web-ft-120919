@@ -13,6 +13,6 @@ array
 end 
 
 my_each do |numbers| 
-  numbers
+  puts numbers
  end 
 end 
