@@ -8,8 +8,9 @@ def my_each(array)
     while counter < array.length 
   yield array 
   counter +=1 
-end 
+ end 
 array
+end 
 
 my_each do |numbers| 
   puts numbers
