@@ -3,11 +3,11 @@ def my_each(array)
   #then yield to each element in the block 
   #then returning that value 
   # code here
-  counter = 0 
   if block_given?
     while counter < array.length
-    counter +=1 
-  yield array 
+    counter = 0 
+  yield array
+  counter += 1 
  end 
 array
 end 
