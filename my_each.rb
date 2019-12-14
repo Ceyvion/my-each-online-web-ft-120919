@@ -4,8 +4,8 @@ def my_each(array)
   #then returning that value 
   # code here
   if block_given?
-    while counter < array.length
     counter = 0 
+    while counter < array.length
   yield array
   counter += 1 
  end 
