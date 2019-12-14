@@ -12,7 +12,7 @@ def my_each(array)
 array
 end 
 
-my_each do |numbers| 
-   numbers
- end 
+# my_each do |numbers| 
+#   numbers
+# end 
 end 
