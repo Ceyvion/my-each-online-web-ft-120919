@@ -5,9 +5,9 @@ def my_each(array)
   # code here
   counter = 0 
   if block_given?
-    while counter < (array[counter]) 
+    while counter < (array[counter])
+    counter +=1 
   yield array 
-  counter +=1 
  end 
 array
 end 
