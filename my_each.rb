@@ -3,15 +3,16 @@ def my_each(array)
   #then yield to each element in the block 
   #then returning that value 
   # code here
-  counter += 0 
   if block_given?
-    while counter < array.length 
-  yield |words| 
-    end 
-
-
-
-
+    counter = 0 
+    while counter < array.length
+    yield (array[counter])
+  counter += 1 
+ end 
+array
 end 
 
-end
+# my_each do |numbers| 
+#   numbers
+# end 
+end 
