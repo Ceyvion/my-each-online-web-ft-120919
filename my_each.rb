@@ -6,11 +6,11 @@ def my_each(array)
   counter += 0 
   if block_given?
     while counter < array.length 
-  yield |words| 
+  yield array 
     end 
 
 
-
+my_each 
 
 end 
 
